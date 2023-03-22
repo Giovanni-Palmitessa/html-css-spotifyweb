@@ -71,6 +71,11 @@ ul{
     list-style: none;
 }
 
+.section-title{
+    font-size: 1.5rem;
+    color: white;
+}
+
 /* MAIN PART */
 
 /* TOP NAVBAR */
@@ -109,9 +114,7 @@ ul{
     padding-inline: 1.5rem;
 }
 
-.recently-played h2{
-    font-size: 1.5rem;
-    color: white;
+.no-sug{
     padding-top: 3rem;
     padding-bottom: 2rem;
 }
@@ -142,4 +145,22 @@ ul{
     color: var(--gray);
     font-size: 0.8rem;
     font-weight: 700;
+}
+
+/* CREATED FOR JOHN DOE */
+
+.created{
+    padding-inline: 1.5rem;
+}
+
+.suggest{
+    padding-top: 3rem;
+    padding-bottom: 0.3rem;
+}
+
+.section-sug{
+    color: var(--gray);
+    font-size: .8rem;
+    font-weight: 700;
+    padding-bottom: 1.8rem;
 }
