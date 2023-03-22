@@ -8,30 +8,6 @@ html{
     font-family: 'Poppins', sans-serif;
 }
 
-:root{
-    --black: #000;
-    --lightblack: #282828;
-    --darkblue: #141922;
-    --darkblue-transparent: #14192297;
-}
-
-/* COMMON */
-
-.btn{
-    color: white;
-    font-weight: 600;
-    border: 1px solid white;
-    border-radius: 50px;
-    padding: .5rem 1.5rem;
-    margin-right: 3rem;
-}
-
-.btn:hover{
-    cursor: pointer;
-}
-
-/* MAIN PART */
-
 aside{
     width: 230px;
     height: calc(100vh - 90px);
@@ -50,9 +26,54 @@ main{
     height: calc(100vh - 90px);
     overflow-y: auto;
     background-color: var(--darkblue) ;
-    color: red;
     padding-top: 90px;
 }
+
+footer{
+    height: 90px;
+    background-color: var(--lightblack);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+:root{
+    --black: #000;
+    --lightblack: #282828;
+    --darkblue: #141922;
+    --darkblue-transparent: #080b12b3;
+    --gray: #7D7F84;
+}
+
+/* COMMON */
+
+.btn{
+    color: white;
+    font-weight: 600;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: .5rem 1.5rem;
+    margin-right: 3rem;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.container-small{
+    max-width: 50%;
+    margin-inline: auto;
+}
+
+ul{
+    list-style: none;
+}
+
+/* MAIN PART */
+
+
 
 .trasparent{
     width: calc(100% - 230px);
@@ -66,12 +87,17 @@ main{
     align-items: center;
 }
 
-footer{
-    height: 90px;
-    background-color: var(--lightblack);
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 1;
+.menu{
+    display: flex;
+    justify-content: space-between;
+    color: var(--gray);
+    padding-top: 1rem;
+    font-size: 0.7rem;
+    font-weight: 700;
 }
+
+.menu li:hover{
+    color: white;
+    cursor: pointer;
+}
+
