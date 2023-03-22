@@ -63,7 +63,6 @@ footer{
 }
 
 .container-small{
-    max-width: 50%;
     margin-inline: auto;
 }
 
@@ -74,6 +73,10 @@ ul{
 .section-title{
     font-size: 1.5rem;
     color: white;
+}
+
+.menu li{
+    white-space: nowrap;
 }
 
 /* MAIN PART */
@@ -96,7 +99,9 @@ ul{
 
 .menu{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
     color: var(--gray);
     padding-top: 1rem;
     font-size: 0.7rem;
@@ -180,15 +185,7 @@ ul{
 /* TABLET */
 
 @media screen and (max-width:1100px) {
-    /* MENU */
-    .container-small{
-        max-width: 90%;
-    }
     
-    .menu{
-         font-size: 0.9rem; /* DA AGGIUSTARE */
-    }
-
     /* RECENTLY PLAYED SECTION */
 
     .albums{
