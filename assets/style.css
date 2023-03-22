@@ -112,6 +112,8 @@ ul{
 .recently-played h2{
     font-size: 1.5rem;
     color: white;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
 }
 
 .albums{
@@ -121,8 +123,20 @@ ul{
 
 .album{
     width: calc((100% - 5rem) / 6);
+    text-align: center;
+    line-height: 2rem;
 }
 
 .album img{
     width: 100%;
+}
+
+.album h3{
+    color: white;
+}
+
+.album .artist{
+    color: var(--gray);
+    font-size: 0.8rem;
+    font-weight: 700;
 }
