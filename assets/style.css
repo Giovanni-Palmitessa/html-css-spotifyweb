@@ -73,7 +73,7 @@ ul{
 
 /* MAIN PART */
 
-
+/* TOP NAVBAR */
 
 .trasparent{
     width: calc(100% - 230px);
@@ -86,6 +86,8 @@ ul{
     justify-content: flex-end;
     align-items: center;
 }
+
+/* MENU */
 
 .menu{
     display: flex;
@@ -101,3 +103,13 @@ ul{
     cursor: pointer;
 }
 
+/* RECENTLY PLAYED SECTION */
+
+.recently-played{
+    padding-inline: 1.5rem;
+}
+
+.recently-played h2{
+    font-size: 1.5rem;
+    color: white;
+}
