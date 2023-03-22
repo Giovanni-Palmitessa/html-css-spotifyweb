@@ -186,6 +186,16 @@ ul{
     }
     
     .menu{
-        font-size: 0.9rem;
+         font-size: 0.9rem; /* DA AGGIUSTARE */
+    }
+
+    /* RECENTLY PLAYED SECTION */
+
+    .albums{
+        flex-wrap: wrap;
+    }
+
+    .album {
+        width: calc((100% - 3rem) / 4);
     }
 }
