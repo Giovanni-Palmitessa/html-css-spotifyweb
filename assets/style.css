@@ -30,6 +30,8 @@ html{
     cursor: pointer;
 }
 
+/* MAIN PART */
+
 aside{
     width: 230px;
     height: calc(100vh - 90px);
