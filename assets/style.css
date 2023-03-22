@@ -113,3 +113,16 @@ ul{
     font-size: 1.5rem;
     color: white;
 }
+
+.albums{
+    display: flex;
+    gap: 1rem
+}
+
+.album{
+    width: calc((100% - 5rem) / 6);
+}
+
+.album img{
+    width: 100%;
+}
