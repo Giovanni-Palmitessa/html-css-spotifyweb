@@ -124,7 +124,6 @@ ul{
 .album{
     width: calc((100% - 5rem) / 6);
     text-align: center;
-    line-height: 2rem;
 }
 
 .album img{
@@ -133,6 +132,9 @@ ul{
 
 .album h3{
     color: white;
+    font-size: 0.9rem;
+    line-height: 1.1rem;
+    padding-bottom: 1rem;
 }
 
 .album .artist{
