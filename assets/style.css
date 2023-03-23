@@ -91,8 +91,13 @@ ul{
     justify-content: space-between;
     height: 100%;
 }
+
 .lateral-bar li:hover{
     cursor: pointer;
+}
+
+.invisible{
+    display: none;
 }
 
 .main-lateral{
@@ -107,6 +112,10 @@ ul{
 
 #big-logo{
     width: 80%;
+}
+
+.small-logo{
+    display: none;
 }
 
 .lateral-ops{
@@ -274,6 +283,8 @@ ul{
     }
 }
 
+/* MOBILE */
+
 @media screen and (max-width:700px) {
     /* MENU */
     
@@ -284,5 +295,28 @@ ul{
     .album {
         width: calc((100% - 1rem) / 2);
     }
+}
+
+/* MOBILE VERY SMALL */
+
+@media screen and (max-width: 600px) {
+    aside{
+        width: 50px;
+    }
+
+    main{
+        width: calc(100% - 50px);
+    }
+
+    .trasparent{
+        width: calc(100% - 50px);
+    }
+
+    
+    
+
+    
+
+   
 }
 
