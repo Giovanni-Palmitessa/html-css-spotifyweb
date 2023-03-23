@@ -92,7 +92,7 @@ ul{
 .main-lateral{
     display: flex;
     flex-direction: column;
-    gap: .4rem;
+    gap: .3rem;
 }
 
 .lateral-bar .main-lateral li img{
@@ -118,6 +118,7 @@ ul{
 
 .add{
     font-size: 2.5rem;
+    color: var(--gray);
 }
 
 .create-play{
