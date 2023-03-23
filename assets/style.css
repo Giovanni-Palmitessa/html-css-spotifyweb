@@ -112,7 +112,7 @@ ul{
     color: var(--gray);
 }
 
-.playlist{
+.white-title{
     font-size: .9rem;
     font-weight: 700;
     color: white;
@@ -133,6 +133,16 @@ ul{
 .download{
     width: 10%;
     margin-left: -4px;
+}
+
+.hr{
+    border-color: var(--gray);
+}
+
+.user{
+    width: 8%;
+    padding-top: 0.3rem;
+    margin-right: 0.1rem;
 }
 
 
