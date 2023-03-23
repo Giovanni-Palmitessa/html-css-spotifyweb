@@ -110,6 +110,12 @@ ul{
     color: var(--gray);
 }
 
+.playlist{
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+}
+
 
 /* TOP NAVBAR */
 
