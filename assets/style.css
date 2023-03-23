@@ -271,11 +271,13 @@ ul{
 footer{
     display: flex;
     justify-content: space-between;
+    padding-inline: .5rem;
 }
 
 .ftr-left{
     display: flex;
     align-items: center;
+    gap: 1rem;
 }
 
 .ftr-left img {
@@ -307,11 +309,18 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding-top: 0.6rem;    
+}
+
+.center-top{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
 }
 
 .ic-white{
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .ic-white.big{
@@ -321,6 +330,14 @@ footer{
 .ftr-right{
     display: flex;
     align-items: center;
+    gap: 1rem
+}
+
+.volume{
+    width: 50px;
+    height: 3px;
+    background-color: white;
+    border-radius: 20px;
 }
 
 /* DESKTOP FIRST */
