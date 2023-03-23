@@ -282,6 +282,17 @@ footer{
     width: 5%;
 }
 
+.ftr-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ftr-right{
+    display: flex;
+    align-items: center;
+}
+
 /* DESKTOP FIRST */
 
 /* TABLET */
