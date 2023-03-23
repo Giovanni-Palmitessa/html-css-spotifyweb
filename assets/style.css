@@ -279,7 +279,23 @@ footer{
 }
 
 .ftr-left img {
-    width: 5%;
+    width: 15%;
+}
+
+.singer{
+    line-height: 10px;
+}
+
+.singer h3{
+    color: white;
+    font-size: .8rem;
+    font-weight: 700;
+}
+
+.singer span{
+    color: var(--gray);
+    font-size: .6rem;
+    font-weight: 700;
 }
 
 .ftr-center{
