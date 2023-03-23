@@ -308,6 +308,15 @@ footer{
     justify-content: space-between;
 }
 
+.ic-white{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.ic-white.big{
+    font-size: 1.7rem;
+}
+
 .ftr-right{
     display: flex;
     align-items: center;
