@@ -268,6 +268,11 @@ ul{
 
 /* FOOTER PLAYER */
 
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+
 .ftr-left{
     display: flex;
     align-items: center;
