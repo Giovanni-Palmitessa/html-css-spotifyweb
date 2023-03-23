@@ -312,11 +312,29 @@ ul{
         width: calc(100% - 50px);
     }
 
-    
-    
+    .menu{
+        font-size: 0.9rem;
+    }
 
-    
+    .main-lateral{
+        display: none;
+    }
 
-   
+    .invisible{
+        display: block;
+    }
+
+    .main-lateral-bottom{
+        display: none;
+    }
+
+    .icon-user{
+        display: block;
+    }
+
+    .download {
+        width: 20px;
+        margin-left: 0px;
+    }
 }
 
