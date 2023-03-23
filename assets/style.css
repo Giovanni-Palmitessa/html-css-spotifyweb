@@ -139,10 +139,18 @@ ul{
     border-color: var(--gray);
 }
 
+.icon-user{
+    display: flex;
+    margin-top: 0.4rem;
+}
+
 .user{
-    width: 8%;
-    padding-top: 0.3rem;
+    width: 25px;
+    height: 25px;
     margin-right: 0.1rem;
+    background-color: gray;
+    border-radius: 40px;
+    display: block;
 }
 
 
