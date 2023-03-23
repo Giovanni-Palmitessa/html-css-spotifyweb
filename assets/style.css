@@ -10,6 +10,7 @@ html{
 
 aside{
     width: 230px;
+    padding: 1rem 1rem 0.5rem;
     height: calc(100vh - 90px);
     background-color: var(--black);
     position: fixed;
@@ -80,6 +81,35 @@ ul{
 }
 
 /* MAIN PART */
+
+/* ASIDE LATERAL BAR  */
+
+.lateral-bar{
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.main-lateral{
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+}
+
+.lateral-bar .main-lateral li img{
+    width: 10%;
+}
+
+#big-logo{
+    width: 80%;
+}
+
+.lateral-ops{
+    font-size: .7rem;
+    font-weight: 600;
+    vertical-align: text-top;
+    color: var(--gray);
+}
+
 
 /* TOP NAVBAR */
 
