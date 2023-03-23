@@ -298,6 +298,10 @@ footer{
     font-weight: 700;
 }
 
+.ic-gray{
+    color: var(--gray);
+}
+
 .ftr-center{
     display: flex;
     flex-direction: column;
