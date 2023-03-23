@@ -46,6 +46,7 @@ footer{
     --darkblue: #141922;
     --darkblue-transparent: #080b12b3;
     --gray: #7D7F84;
+    --lime: #ADFF2F;
 }
 
 /* COMMON */
@@ -89,6 +90,9 @@ ul{
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
+}
+.lateral-bar li:hover{
+    cursor: pointer;
 }
 
 .main-lateral{
