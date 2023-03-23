@@ -266,6 +266,17 @@ ul{
     border-radius: 50%;
 }
 
+/* FOOTER PLAYER */
+
+.ftr-left{
+    display: flex;
+    align-items: center;
+}
+
+.ftr-left img {
+    width: 5%;
+}
+
 /* DESKTOP FIRST */
 
 /* TABLET */
