@@ -194,6 +194,22 @@ ul{
     font-weight: 700;
 }
 
+.underline{
+    position: relative;
+}
+
+.underline::after{
+    content: "";
+    display: block;
+    position: absolute;
+    right: 35%;
+    bottom: -5px;
+    left: 35%;
+    height: 2px;
+    border-radius: 20px;
+    background-color: #ADFF2F;
+}
+
 .menu li:hover{
     color: white;
     cursor: pointer;
