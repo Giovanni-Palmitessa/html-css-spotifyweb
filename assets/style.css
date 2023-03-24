@@ -111,6 +111,10 @@ ul{
     gap: .3rem;
 }
 
+.green{
+    border-left: 3px solid greenyellow;
+}
+
 .lateral-bar .main-lateral li img{
     width: 10%;
 }
