@@ -96,6 +96,11 @@ ul{
     cursor: pointer;
 }
 
+.main-lateral li .lateral-ops:hover,
+.main-lateral li .create-play:hover{
+    color: white;
+}
+
 .invisible{
     display: none;
 }
@@ -405,7 +410,7 @@ footer{
 }
 
 .volume{
-    width: 130px;
+    width: 80px;
     height: 3px;
     background-color: var(--gray);
     border-radius: 20px;
