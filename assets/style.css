@@ -373,7 +373,7 @@ footer{
 
 .ftr-center{
     display: flex;
-    width: 75%;
+    width: 70%;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
@@ -432,7 +432,7 @@ footer{
 }
 
 .volume{
-    width: 40%;
+    min-width: 45%;
     height: 3px;
     background-color: var(--gray);
     border-radius: 20px;
