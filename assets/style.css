@@ -62,6 +62,7 @@ footer{
 
 .btn:hover{
     cursor: pointer;
+    transform: scale(1.1);
 }
 
 .container-small{
@@ -329,6 +330,7 @@ ul{
 
 .circle{
     border-radius: 50%;
+    overflow: hidden;
 }
 
 /* FOOTER PLAYER */
