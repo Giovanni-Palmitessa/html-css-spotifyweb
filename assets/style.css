@@ -112,7 +112,19 @@ ul{
 }
 
 .green{
-    border-left: 3px solid greenyellow;
+    position: relative;
+}
+
+.green::after{
+    content: "";
+    display: block;
+    position: absolute;
+    right: 40%;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    border-radius: 20px;
+    background-color: #ADFF2F;
 }
 
 .lateral-bar .main-lateral li img{
@@ -328,6 +340,7 @@ footer{
 }
 
 .ftr-left{
+    width: 15%;
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -360,6 +373,7 @@ footer{
 
 .ftr-center{
     display: flex;
+    width: 75%;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
@@ -384,6 +398,8 @@ footer{
 .center-bottom{
     display: flex;
     align-items: center;
+    justify-content: center;
+    width: 60%;
     gap: 0.7rem;
 }
 
@@ -394,7 +410,7 @@ footer{
 }
 
 .audio{
-    width: 230px;
+    width: 50%;
     height: 3px;
     background-color: var(--gray);
     border-radius: 20px;
@@ -408,13 +424,15 @@ footer{
 }
 
 .ftr-right{
+    width: 15%;
     display: flex;
+    justify-content: flex-end;
     align-items: center;
     gap: 1rem
 }
 
 .volume{
-    width: 80px;
+    width: 40%;
     height: 3px;
     background-color: var(--gray);
     border-radius: 20px;
