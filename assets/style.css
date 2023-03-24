@@ -316,7 +316,7 @@ footer{
 .center-top{
     display: flex;
     align-items: center;
-    gap: 2rem;
+    gap: 1.3rem;
 }
 
 .ic-white{
@@ -332,6 +332,12 @@ footer{
     display: flex;
     align-items: center;
     gap: 0.7rem;
+}
+
+.time{
+    font-size: .5rem;
+    font-weight: 700;
+    color: white;
 }
 
 .audio{
