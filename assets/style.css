@@ -412,9 +412,9 @@ footer{
     border-radius: 20px; 
 }
 
-.duration::after{
+/* .duration::after{
     content: "";
-    display: block;
+    display: none;
     width: 15px;
     height: 15px;
     background-color: gray;
@@ -422,10 +422,22 @@ footer{
     position: absolute;
     top: -200%;
     left: 16%;
-}
+} */
 
 .audio:hover .duration{
     background-color: #ADFF2F;
+}
+
+.audio:hover .duration:after{
+    content: "";
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 30px;
+    position: absolute;
+    top: -200%;
+    left: 16%;
 }
 
 .ftr-right{
@@ -441,6 +453,7 @@ footer{
     height: 3px;
     background-color: var(--gray);
     border-radius: 20px;
+    position: relative;
 }
 
 .volume-high{
@@ -453,6 +466,19 @@ footer{
 .volume:hover .volume-high{
     background-color: #ADFF2F;
 }
+
+.volume:hover .volume-high:after{
+    content: "";
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 30px;
+    position: absolute;
+    left: 16%;
+    bottom: -200%;
+}
+
 
 /* DESKTOP FIRST */
 
