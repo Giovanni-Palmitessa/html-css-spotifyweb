@@ -98,7 +98,8 @@ ul{
 }
 
 .main-lateral li .lateral-ops:hover,
-.main-lateral li .create-play:hover{
+.main-lateral li .create-play:hover,
+.main-lateral-bottom li .lateral-ops:hover{
     color: white;
 }
 
@@ -333,7 +334,7 @@ footer{
     gap: 1rem;
 }
 
-.ftr-left img {
+.ftr-left .music img {
     width: 50px;
     height: 50px;
 }
@@ -501,6 +502,39 @@ footer{
     .download {
         width: 20px;
         margin-left: 0px;
+    }
+
+    .ftr-left{
+        gap: 5px;
+    }
+
+    .ftr-left .music img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .singer h3{
+        font-size: 11px;
+    }
+
+    .singer span{
+        font-size: 8px;
+    }
+
+    .center-top{
+        gap: 10px;
+    }
+
+    .ftr-right{
+        gap: 10px;
+    }
+
+    .ic-white.big {
+        font-size: 20px;
+    }
+
+    .ic-white{
+        font-size: 13px;
     }
 }
 
