@@ -402,6 +402,7 @@ footer{
     height: 3px;
     background-color: var(--gray);
     border-radius: 20px;
+    position: relative;
 }
 
 .duration{
@@ -414,10 +415,13 @@ footer{
 .duration::after{
     content: "";
     display: block;
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
     background-color: gray;
     border-radius: 30px;
+    position: absolute;
+    top: -200%;
+    left: 16%;
 }
 
 .audio:hover .duration{
