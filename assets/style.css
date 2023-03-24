@@ -413,8 +413,9 @@ footer{
 
 .duration::after{
     content: "";
-    width: 5px;
-    height: 5px;
+    display: block;
+    width: 10px;
+    height: 10px;
     background-color: gray;
     border-radius: 30px;
 }
