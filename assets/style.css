@@ -411,6 +411,18 @@ footer{
     border-radius: 20px; 
 }
 
+.duration::after{
+    content: "";
+    width: 5px;
+    height: 5px;
+    background-color: gray;
+    border-radius: 30px;
+}
+
+.audio:hover .duration{
+    background-color: #ADFF2F;
+}
+
 .ftr-right{
     width: 15%;
     display: flex;
@@ -431,6 +443,10 @@ footer{
     height: 3px;
     background-color: white;
     border-radius: 20px;
+}
+
+.volume:hover .volume-high{
+    background-color: #ADFF2F;
 }
 
 /* DESKTOP FIRST */
