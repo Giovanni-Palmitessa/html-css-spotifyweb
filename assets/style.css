@@ -308,7 +308,8 @@ footer{
 .ftr-center{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
     padding-top: 0.6rem;    
 }
 
@@ -327,6 +328,26 @@ footer{
     font-size: 1.7rem;
 }
 
+.center-bottom{
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+.audio{
+    width: 230px;
+    height: 3px;
+    background-color: var(--gray);
+    border-radius: 20px;
+}
+
+.duration{
+    width: 20%;
+    height: 3px;
+    background-color: white;
+    border-radius: 20px; 
+}
+
 .ftr-right{
     display: flex;
     align-items: center;
@@ -341,7 +362,7 @@ footer{
 }
 
 .volume-high{
-    width: 40px;
+    width: 20%;
     height: 3px;
     background-color: white;
     border-radius: 20px;
